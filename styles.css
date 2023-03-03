@@ -16,9 +16,27 @@
 .background {
   background: #1c1a19 url(Icons/background/Illustration-header.svg) no-repeat bottom right;
   height: 100vh;
+  width: max-content;
+  padding-top: 10.5rem;
 }
 
-.about {
+.intro {
+  color: #F55800;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 130px 0 130px 0;
+  background: #E5E5E5;
+}
+
+.description {
+  margin-top: 8.75rem;
+}
+
+/*.about {
   background-color: #1c1a19;
 }
 
@@ -26,5 +44,6 @@
   background: #1c1a19 url(Icons/about/Frame.svg) no-repeat center right;
   height: 100vh;
 }
+*/
 
 
